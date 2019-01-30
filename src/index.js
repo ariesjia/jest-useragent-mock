@@ -14,5 +14,3 @@ export const clear = () => {
 export const mockUserAgent = (agent) => {
   fakeUserAgent = agent
 }
-
-console.log(global.navigator.userAgent)

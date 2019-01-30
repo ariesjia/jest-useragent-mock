@@ -10,13 +10,13 @@ const configs = {
   dev: {
     input: resolve('src/index.js'),
     file: resolve('dist/index.js'),
-    format: 'es',
+    format: 'cjs',
     env: 'development'
   },
   prod: {
     input: resolve('src/index.js'),
     file: resolve('dist/index.min.js'),
-    format: 'es',
+    format: 'cjs',
     env: 'production'
   },
 }
@@ -38,7 +38,7 @@ function genConfig (opts) {
     output: {
       file: opts.file,
       format: opts.format,
-      name: 'BatchGraphql'
+      name: 'jest-useragent-mock'
     }
   }
 
