@@ -1,0 +1,39 @@
+{
+  "name": "jest-useragent-mock",
+  "version": "0.0.1",
+  "description": "Mock `navigator.userAgent` when run unit test cases with jest.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "node build/build.js",
+    "test": "jest --config test/jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ariesjia/jest-useragent-mock.git"
+  },
+  "keywords": [
+    "mock",
+    "jest",
+    "useragent"
+  ],
+  "author": "ariesjia",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ariesjia/jest-useragent-mock/issues"
+  },
+  "homepage": "https://github.com/ariesjia/jest-useragent-mock#readme",
+  "devDependencies": {
+    "@babel/core": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "rollup": "^0.66.6",
+    "rollup-plugin-babel": "^4.0.3",
+    "rollup-plugin-buble": "^0.19.4",
+    "rollup-plugin-npm": "^2.0.0",
+    "rollup-plugin-replace": "^2.1.0",
+    "uglify-js": "^3.4.9",
+    "zlib": "^1.0.5"
+  },
+  "dependencies": {
+    "jest": "^24.0.0"
+  }
+}
