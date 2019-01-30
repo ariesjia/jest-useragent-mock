@@ -19,7 +19,6 @@ yarn add jest-useragent-mock -D
 ```
 
 ## Usage
-`jest.config.js`
 ```javascript
 import { clear, mockUserAgent } from 'jest-useragent-mock'
 
