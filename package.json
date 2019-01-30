@@ -3,6 +3,7 @@
   "version": "0.0.1",
   "description": "Mock `navigator.userAgent` when run unit test cases with jest.",
   "main": "dist/index.js",
+  "typings": "./index.d.ts",
   "scripts": {
     "build": "node build/build.js",
     "test": "jest --config test/jest.config.js"
