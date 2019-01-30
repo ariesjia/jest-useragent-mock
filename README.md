@@ -6,8 +6,10 @@
 
 ## Install
 ```bash
-npm install jest-useragent-mock  --save-dev
+// use yarn
 yarn add jest-useragent-mock -D
+// use npm
+npm install jest-useragent-mock  --save-dev
 ```
 
 ## Setup
