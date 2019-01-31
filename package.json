@@ -1,6 +1,6 @@
 {
   "name": "jest-useragent-mock",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mock `navigator.userAgent` when run unit test cases with jest.",
   "main": "dist/index.js",
   "typings": "./index.d.ts",
@@ -32,9 +32,7 @@
     "rollup-plugin-npm": "^2.0.0",
     "rollup-plugin-replace": "^2.1.0",
     "uglify-js": "^3.4.9",
-    "zlib": "^1.0.5"
-  },
-  "dependencies": {
+    "zlib": "^1.0.5",
     "jest": "^24.0.0"
   }
 }
