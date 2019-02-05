@@ -5,17 +5,17 @@ describe('test usergaent', () => {
     clear()
   })
 
-  it('can get origin userAgent', () => {
+  it('should get origin userAgent', () => {
     expect(window.navigator.userAgent).toBeDefined()
   })
 
-  it('can mock userAgent', () => {
+  it('should mock userAgent', () => {
     const mockAgent = 'test'
     mockUserAgent(mockAgent)
     expect(window.navigator.userAgent).toEqual(mockAgent)
   })
 
-  it('can clear mock', () => {
+  it('should clear mock userAgent', () => {
     const origin = window.navigator.userAgent
     const mockAgent = 'test'
     mockUserAgent(mockAgent)
