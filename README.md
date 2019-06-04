@@ -2,6 +2,8 @@
 > Mock `navigator.userAgent` when run unit test cases with jest.
 
 [![Build Status](https://travis-ci.org/ariesjia/jest-useragent-mock.svg?branch=master)](https://travis-ci.org/ariesjia/jest-useragent-mock)
+[![license](https://badgen.net/badge/license/MIT/blue)](https://github.com/ariesjia/jest-useragent-mock/blob/master/LICENSE)
+[![coverage](https://badgen.net/codecov/c/github/ariesjia/jest-useragent-mock)](https://codecov.io/gh/ariesjia/jest-useragent-mock)
 
 
 ## Install
