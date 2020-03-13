@@ -1,14 +1,15 @@
 const origin = global.navigator.userAgent
+const cleared = Symbol('clear');
 let fakeUserAgent = null
 
 Object.defineProperty(global.navigator, 'userAgent', {
   get() {
-    return fakeUserAgent || origin
+    return fakeUserAgent === cleared ? origin : (fakeUserAgent || '')
   },
 })
 
 export const clear = () => {
-  fakeUserAgent = ''
+  fakeUserAgent = cleared
 }
 
 export const mockUserAgent = (agent) => {
