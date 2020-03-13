@@ -1,6 +1,6 @@
 {
   "name": "jest-useragent-mock",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Mock `navigator.userAgent` when run unit test cases with jest.",
   "main": "dist/index.js",
   "typings": "./index.d.ts",
