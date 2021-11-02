@@ -26,7 +26,7 @@ npm install jest-useragent-mock  --save-dev
 ```javascript
 import { clear, mockUserAgent } from 'jest-useragent-mock'
 
-describe('test usergaent', () => {
+describe('test useragent', () => {
   afterEach(() => {
     clear()
   })
